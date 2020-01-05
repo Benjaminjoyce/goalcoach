@@ -16,3 +16,10 @@ export default (state = user, action) => {
             return state;
     }
 }
+
+  /*
+   Again with using break OR return if you want to use return there's isn't any need to declare the "user" object before returning it.
+
+  case SIGNED_IN:
+     return { email: action.email };
+  */
